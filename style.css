@@ -7,17 +7,13 @@ body,
   font-size: 62.5%%;
 }
 .parent {
-  font-size: 10px;
+  font-size: 30px;
+  border: 1px solid red;
+  display: flex;
 }
-h2{
-    margin: 1rem;
-}
-.px-size {
+
+#child {
   font-size: 20px;
-}
-.rem-size {
-  font-size: 2rem;
-}
-.em-size {
-  font-size: 5em;
+  border: 1px solid red;
+  width: 28%;
 }
