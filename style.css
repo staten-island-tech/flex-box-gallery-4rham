@@ -5,15 +5,25 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%%;
+  background-color: coral;
+  color: teal;
 }
+.header {
+  text-align: center;
+  font-size: 50px;
+}
+
 .parent {
   font-size: 30px;
   border: 1px solid red;
   display: flex;
+  justify-content: space-around;
 }
 
 #child {
   font-size: 20px;
   border: 1px solid red;
   width: 28%;
+  display: flex;
+  justify-content: space-around;
 }
