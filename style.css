@@ -11,19 +11,24 @@ body,
 .header {
   text-align: center;
   font-size: 50px;
+  border: 5px cornflowerblue;
 }
 
 .parent {
   font-size: 30px;
-  border: 1px solid red;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  border: 5px
 }
 
-#child {
+.child {
   font-size: 20px;
-  border: 1px solid red;
   width: 28%;
-  display: flex;
-  justify-content: space-around;
+width: 50vh;
+height: 50vh;
+display: block;
+text-align: center;
+margin: 10px auto;
 }
