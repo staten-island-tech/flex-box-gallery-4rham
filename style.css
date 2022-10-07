@@ -4,49 +4,51 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%%;
-  background-color: coral;
+  font-size: 62.5%;
+  background-color: rgb(249, 186, 119);
   color: teal;
 }
-
-.parent {
-  font-size: 30px;
+.background{
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  background-image: url(https://www.pidgi.net/wiki/images/6/62/Illustration_-_Super_Smash_Bros_Ultimate.jpg);
+}
+#head{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 5px solid rgba(126, 227, 200, 0.961);
+  padding: 5px;
+  width: 30%;
+  color: black;
+  margin: auto;
+  border-radius: 5px;
+}
+#head2{
+  display: block;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 5px solid rgba(126, 227, 200, 0.961);
+  padding: 5px;
+  width: 45%;
+  color: black;
+  margin: 335px auto
+}
+.parent{
   display: flex;
-  justify-content:space-evenly;
-  flex-wrap: wrap;
-  align-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
-  text-align: center;
-  border: 5px
+  margin-top: 75px;
 }
-
-.child1 {
-  font-size: 20px;
-  width: 1700px;
-  height: 150px;
-  display: block;
-  text-align: center;
-  margin: 10px auto;
-}
-.child2 {
-  font-size: 20px;
-  width: 1700px;
-  height: 150px;
-  display: block;
-  text-align: center;
-  margin: 10px auto;
-}
-.child3 {
-  font-size: 20px;
-  width: 1700px;
-  height: 150px;
-  display: block;
-  text-align: center;
-  margin: 10px auto;
-}
-#img {
-width: 15%;
-height: 75%;
-border; 100px
-background-color: red
+.child{
+  width: 25%;
+  height: auto;
+  padding: 5px;
+  background-color: rgb(56, 114, 221);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
 }
