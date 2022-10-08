@@ -6,7 +6,7 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
   background-color: rgb(249, 186, 119);
-  color: teal;
+  color: rgb(0, 0, 0);
 }
 .background{
   background-position: center;
@@ -16,7 +16,7 @@ body,
 }
 #head{
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
   background-color: aliceblue;
   border: 5px solid rgba(126, 227, 200, 0.961);
@@ -29,7 +29,7 @@ body,
 #head2{
   display: block;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
   background-color: aliceblue;
   border: 5px solid rgba(126, 227, 200, 0.961);
@@ -47,8 +47,23 @@ body,
 .child{
   width: 25%;
   height: auto;
+  padding: 5px 5px 20px 5px;
+  background-color: rgb(56, 114, 221);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+}
+.parent2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.child2{
+  text-align: center;
+  width: 25%;
+  height: auto;
   padding: 5px;
   background-color: rgb(56, 114, 221);
   border-radius: 5px;
   box-shadow: 10px 5px 5px black;
+  margin-top: -20px;
 }
