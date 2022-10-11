@@ -47,8 +47,12 @@ body,
 .child{
   width: 25%;
   height: auto;
-  padding: 5px;
+  padding: 5px 5px 50px 5px;
   background-color: rgb(56, 114, 221);
-  border-radius: 5px;
-  box-shadow: 10px 5px 5px black;
+  border-radius: 10px;
+  box-shadow: 15px 10px 15px black;
+}
+.name{
+  font-size: 20px;
+  display: block
 }
