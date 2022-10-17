@@ -5,7 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: rgb(249, 186, 119);
+  background-image: linear-gradient(white orange);
   color: rgb(0, 0, 0);
 }
 .background{
