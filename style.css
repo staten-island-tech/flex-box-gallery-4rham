@@ -76,14 +76,25 @@ body,
   transform: scale(1.25);
 }
 
+.card-1:hover{
+  transform: rotate(180deg);
+}
+.card-3:hover{
+  transform: skew(-15deg);
+}
 .card-4:hover{
 transform: rotate(180deg);
 }
-
 .card-6:hover{
-  transform: skew(15deg)
+  transform: rotate(360deg)
 }
-
+.card-7:hover{
+  transform: rotate(180deg);
+}
+.card-8:hover{}
+.card-9:hover{
+  transform: skew(15deg);
+}
 .parent:hover .card:not(:hover) {
   scale: .90;
   opacity: 80%;
