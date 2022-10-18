@@ -75,7 +75,6 @@ body,
 .card:hover {
   transform: scale(1.25);
 }
-
 .card-1:hover{
   transform: rotate(180deg);
 }
@@ -122,4 +121,13 @@ transform: rotate(180deg);
     scale: 100%;
     border-color: rgba(126, 227, 200, 0.961);
   }
+}
+@media (orientation: portrait) and (max-width:500px) {
+.card{
+width: 75%;
+margin: 5px auto;
+}
+.parent{
+  justify-content: space-around;
+}
 }
