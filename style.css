@@ -8,13 +8,15 @@ body,
   background-color: coral;
   color: rgb(0, 0, 0);
 }
-.background{
+
+.background {
   background-position: center;
   background-size: cover;
   height: 50vh;
   background-image: url(https://www.pidgi.net/wiki/images/6/62/Illustration_-_Super_Smash_Bros_Ultimate.jpg);
 }
-#head{
+
+#head {
   display: block;
   font-size: 2rem;
   text-align: center;
@@ -26,7 +28,8 @@ body,
   margin: auto;
   border-radius: 5px;
 }
-#head2{
+
+#head2 {
   display: block;
   border-radius: 5px;
   font-size: 1.5rem;
@@ -34,44 +37,78 @@ body,
   background-color: aliceblue;
   border: 5px solid rgba(126, 227, 200, 0.961);
   padding: 5px;
+  animation: animation 6s infinite;
   width: 45%;
   color: black;
   margin: 335px auto
 }
-.parent{
+
+.parent {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 75px;
+  margin-top: 50px;
 }
-.child{
-  width: 25%;
+
+.child {
+  width: 100%;
   height: auto;
-  padding: 5px 5px 20px 5px;
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgb(56, 114, 221);
+  margin-top: 5px;
+}
+
+.card {
+  width: 200%;
+  height: auto;
+  margin: 50px auto;
+  padding: 0px 5px 0px 5px;
   background-color: rgb(56, 114, 221);
   border-radius: 5px;
   box-shadow: 10px 7.5px 5px black;
   transition: all 0.3s;
-}
-.child:hover{
-  transform: scale(1.25);
-}
-.parent2{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-}
-.child2{
+  display: block;
   text-align: center;
-  font-size: 1rem;
-  width: 25%;
-  height: auto;
-  padding: 5px;
-  background-color: rgb(56, 114, 221);
-  border-radius: 5px;
-  margin-top: -20px;
-  transition: all 0.3s;
 }
-.child2:hover{
+
+.card:hover {
   transform: scale(1.25);
+}
+
+.card-4:hover{
+transform: rotate(180deg);
+}
+
+.card-6:hover{
+  transform: skew(15deg)
+}
+
+.parent:hover .card:not(:hover) {
+  scale: .90;
+  opacity: 80%;
+}
+
+.row-1 {
+  margin: 0px 0px 0px -200px;
+}
+
+.row {
+  width: 200px;
+}
+
+@keyframes animation {
+  0% {
+    scale: 100%;
+    border-color: rgba(126, 227, 200, 0.961);
+  }
+
+  50% {
+    scale: 125%;
+    border-color: rgba(116, 197, 131, 0.961);
+  }
+  100% {
+    scale: 100%;
+    border-color: rgba(126, 227, 200, 0.961);
+  }
 }
